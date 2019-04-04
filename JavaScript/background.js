@@ -1,5 +1,5 @@
 
-master_id = "5017";
+master_id = "5035";
 
 
 var total_stars = 0;
@@ -170,6 +170,7 @@ function width_setter(){
   if( master_id >= "5007"){
     var variable = document.getElementById(bar_list[0])
     variable.style.width = "100%"
+
   }
   else{
     var newer = master_id - "5001"

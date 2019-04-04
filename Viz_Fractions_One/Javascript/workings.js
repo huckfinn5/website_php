@@ -60,6 +60,7 @@ function shape1(){
     localStorage.setItem("current_exercise","5001" );
     localStorage.setItem("next_exercise","5002" );
     localStorage.setItem("shape", 0);
+    localStorage.setItem("margin_top", 0);
     document.location.href = "game.php"}
 }
 
@@ -68,6 +69,7 @@ function shape2(){
     localStorage.setItem("current_exercise","5002" );
     localStorage.setItem("next_exercise","5003" );
     localStorage.setItem("shape", 1);
+    localStorage.setItem("margin_top", 0);
     document.location.href = "game.php"}
 }
 
@@ -76,6 +78,7 @@ function shape3(){
     localStorage.setItem("current_exercise","5003" );
     localStorage.setItem("next_exercise","5004" );
     localStorage.setItem("shape", 2);
+    localStorage.setItem("margin_top", 0);
     document.location.href = "game.php";}
 }
 
@@ -84,6 +87,7 @@ function shape4(){
     localStorage.setItem("current_exercise","5004" );
     localStorage.setItem("next_exercise","5005" );
     localStorage.setItem("shape", 3);
+    localStorage.setItem("margin_top", 125);
     document.location.href = "game.php";}
 }
 
@@ -92,6 +96,7 @@ function shape5(){
     localStorage.setItem("current_exercise","5005" );
     localStorage.setItem("next_exercise","5006" );
     localStorage.setItem("shape", 4);
+    localStorage.setItem("margin_top", 0);
     document.location.href = "game.php"}
 }
 
@@ -100,6 +105,7 @@ function shape6(){
     localStorage.setItem("current_exercise","5006" );
     localStorage.setItem("next_exercise","5007" );
     localStorage.setItem("shape", 5);
+    localStorage.setItem("margin_top", 125);
     document.location.href = "game.php"}
 }
 
@@ -123,6 +129,8 @@ function shuffle(array) {
 }
 
 function master(){
+    var mar_top = localStorage.getItem("margin_top")
+    document.getElementById("display_photo").style.marginTop = mar_top;
     document.getElementById("bb835").innerHTML = "Points: " + total_points + "/"+length_list*20+ "<br> Turns: "+  turns +"/" + length_list
     threshold = Math.floor((20*length_list)/2)
 if(turns < length_list){

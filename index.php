@@ -1,3 +1,10 @@
+<?php
+$var1 = 80;
+?>
+<script type="text/javascript">
+var workoutTitle=<?php echo $var1; ?>;
+</script>
+
 <html>
 	<body onload="opacity_setter()">
 			<div>
