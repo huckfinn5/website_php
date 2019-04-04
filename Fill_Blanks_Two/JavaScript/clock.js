@@ -56,7 +56,7 @@ function very_easy(){
     localStorage.setItem("num_dif", 2);
     localStorage.setItem("den_dif", 4);
     localStorage.setItem("bailout", 3);
-    localStorage.setItem("practice_title","Fill_In_The_Blanks_Two" + title[0]);
+    localStorage.setItem("practice_title","Fill_In_The_Blanks_Two_one");
     localStorage.setItem("current_exercise","5028" );
     localStorage.setItem("next_exercise","5029" );
     document.location.href = "game.php"}
@@ -68,7 +68,7 @@ function easy(){
     localStorage.setItem("num_dif", 2);
     localStorage.setItem("den_dif", 4);
     localStorage.setItem("bailout", 3);
-    localStorage.setItem("practice_title","Fill_In_The_Blanks_Two" + title[1]);
+    localStorage.setItem("practice_title","Fill_In_The_Blanks_Two_two");
     localStorage.setItem("current_exercise","5029" );
     localStorage.setItem("next_exercise","5030" );
     document.location.href = "game.php"}
@@ -80,7 +80,7 @@ function easy_average(){
     localStorage.setItem("num_dif", 4);
     localStorage.setItem("den_dif", 7);
     localStorage.setItem("bailout", 5);
-    localStorage.setItem("practice_title","Fill_In_The_Blanks_Two" + title[2]);
+    localStorage.setItem("practice_title","Fill_In_The_Blanks_Two_three");
     localStorage.setItem("current_exercise","5030" );
     localStorage.setItem("next_exercise","5031" );
     document.location.href = "game.php"}
@@ -92,7 +92,7 @@ function average(){
     localStorage.setItem("num_dif", 4);
     localStorage.setItem("den_dif", 7);
     localStorage.setItem("bailout", 5);
-    localStorage.setItem("practice_title","Fill_In_The_Blanks_Two" + title[3]);
+    localStorage.setItem("practice_title","Fill_In_The_Blanks_Two_four");
     localStorage.setItem("current_exercise","5031" );
     localStorage.setItem("next_exercise","5032" );
     document.location.href = "game.php"}
@@ -104,7 +104,7 @@ function hard(){
     localStorage.setItem("num_dif",7);
     localStorage.setItem("den_dif",12);
     localStorage.setItem("bailout", 11);
-    localStorage.setItem("practice_title","Fill_In_The_Blanks_Two" + title[4]);
+    localStorage.setItem("practice_title","Fill_In_The_Blanks_Two_five");
     localStorage.setItem("current_exercise","5032" );
     localStorage.setItem("next_exercise","5033" );
     document.location.href = "game.php"}
@@ -116,7 +116,7 @@ function very_hard(){
     localStorage.setItem("num_dif",7);
     localStorage.setItem("den_dif", 12);
     localStorage.setItem("bailout", 11);
-    localStorage.setItem("practice_title","Fill_In_The_Blanks_Two" + title[5]);
+    localStorage.setItem("practice_title","Fill_In_The_Blanks_Two_six");
     localStorage.setItem("current_exercise","5033" );
     localStorage.setItem("next_exercise","5034" );
     document.location.href = "game.php"}

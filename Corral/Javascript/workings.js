@@ -168,6 +168,7 @@ function restarter(){
     answer3.style.opacity = 1
     answer4.style.opacity = 1
     answer5.style.opacity = 1
+    turns+=1
     var clock = document.getElementById("clock")
     clock.className = "clock_blank"
 }
@@ -378,7 +379,6 @@ function master(){
     timout_explain = setTimeout(explainer_show,44800)
     restarter_variable =  setTimeout(restarter,44900)
     master_variable = setTimeout(master,45000)
-    turns+=1
     }
     else{
     var choice1 = document.getElementById("choice_one")

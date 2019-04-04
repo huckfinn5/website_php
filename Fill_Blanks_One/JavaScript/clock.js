@@ -57,7 +57,7 @@ function very_easy(){
     localStorage.setItem("bailout", 3);
     localStorage.setItem("current_exercise","5022" );
     localStorage.setItem("next_exercise","5023" );
-    localStorage.setItem("practice_title","Fill_In_The_Blanks" + title[0]);
+    localStorage.setItem("practice_title","Fill_In_The_Blanks_one");
     document.location.href = "game.php"}
 }
 
@@ -69,7 +69,7 @@ function easy(){
     localStorage.setItem("bailout", 3);
     localStorage.setItem("current_exercise","5023" );
     localStorage.setItem("next_exercise","5024" );
-    localStorage.setItem("practice_title","Fill_In_The_Blanks" + title[1]);
+    localStorage.setItem("practice_title","Fill_In_The_Blanks_two");
     document.location.href = "game.php"}
 }
 
@@ -81,7 +81,7 @@ function easy_average(){
     localStorage.setItem("bailout", 5);
     localStorage.setItem("current_exercise","5024" );
     localStorage.setItem("next_exercise","5025" );
-    localStorage.setItem("practice_title","Fill_In_The_Blanks" + title[2]);
+    localStorage.setItem("practice_title","Fill_In_The_Blanks_three");
     document.location.href = "game.php"}
 }
 
@@ -93,7 +93,7 @@ function average(){
     localStorage.setItem("bailout", 5);
     localStorage.setItem("current_exercise","5025" );
     localStorage.setItem("next_exercise","5026" );
-    localStorage.setItem("practice_title","Fill_In_The_Blanks" + title[3]);
+    localStorage.setItem("practice_title","Fill_In_The_Blanks_four");
     document.location.href = "game.php"}
 }
 
@@ -105,7 +105,7 @@ function hard(){
     localStorage.setItem("bailout", 11);
     localStorage.setItem("current_exercise","5026" );
     localStorage.setItem("next_exercise","5027" );
-    localStorage.setItem("practice_title","Fill_In_The_Blanks" + title[4]);
+    localStorage.setItem("practice_title","Fill_In_The_Blanks_five");
     document.location.href = "game.php"}
 }
 
@@ -117,7 +117,7 @@ function very_hard(){
     localStorage.setItem("bailout", 11);
     localStorage.setItem("current_exercise","5027" );
     localStorage.setItem("next_exercise","5028" );
-    localStorage.setItem("practice_title","Fill_In_The_Blanks" + title[5]);
+    localStorage.setItem("practice_title","Fill_In_The_Blanks_six");
     document.location.href = "game.php"}
 }
 

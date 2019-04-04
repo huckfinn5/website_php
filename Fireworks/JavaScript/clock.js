@@ -13,8 +13,7 @@ var time_checker = true;
 var timout1,timout2, timeout3, timeout4, timout_master, timeout_restarter;
 var two_on, four_on, six_on, eight_on, ten_on, two_off, four_off, six_off, eight_off, ten_off;
 document.getElementById("total_points").innerHTML = "Points: " + total_points + "   Turn: " + turns + "/10";
-var title = ["_one","_two","_three","_four","_five","_six",]
-var practice_title = "Fireworks"
+var title = ["_one","_two","_three","_four","_five","_six"]
 
 var current_exercise = localStorage.getItem("current_exercise")
 var next_exercsie = localStorage.getItem("next_exercise")
@@ -56,7 +55,7 @@ function very_easy(){
     localStorage.setItem("bailout", 3);
     localStorage.setItem("current_exercise","5010" );
     localStorage.setItem("next_exercise","5011" );
-    localStorage.setItem("practice_title", "Fireworks" + title[0])
+    localStorage.setItem("practice_title", "Fireworks_one")
     document.location.href = "game.php"}
 }
 
@@ -68,7 +67,7 @@ function easy(){
     localStorage.setItem("bailout", 3);
     localStorage.setItem("current_exercise","5011" );
     localStorage.setItem("next_exercise","5012" );
-    localStorage.setItem("practice_title", "Fireworks" + title[1])
+    localStorage.setItem("practice_title", "Fireworks_two")
     document.location.href = "game.php"}
 }
 
@@ -80,7 +79,7 @@ function easy_average(){
     localStorage.setItem("bailout", 5);
     localStorage.setItem("current_exercise","5012" );
     localStorage.setItem("next_exercise","5013" );
-    localStorage.setItem("practice_title", "Fireworks" + title[2])
+    localStorage.setItem("practice_title", "Fireworks_three")
     document.location.href = "game.php"}
 }
 
@@ -92,7 +91,7 @@ function average(){
     localStorage.setItem("bailout", 5);
     localStorage.setItem("current_exercise","5013" );
     localStorage.setItem("next_exercise","5014" );
-    localStorage.setItem("practice_title", "Fireworks" + title[3])
+    localStorage.setItem("practice_title", "Fireworks_four")
     document.location.href = "game.php"}
 }
 
@@ -104,7 +103,7 @@ function hard(){
     localStorage.setItem("bailout", 11);
     localStorage.setItem("current_exercise","5014" );
     localStorage.setItem("next_exercise","5015" );
-    localStorage.setItem("practice_title", "Fireworks" + title[4])
+    localStorage.setItem("practice_title", "Fireworks_five")
     document.location.href = "game.php"}
 }
 
@@ -116,7 +115,7 @@ function very_hard(){
     localStorage.setItem("bailout", 11);
     localStorage.setItem("current_exercise","5015" );
     localStorage.setItem("next_exercise","5016" );
-    localStorage.setItem("practice_title", "Fireworks" + title[5])
+    localStorage.setItem("practice_title", "Fireworks_six")
     document.location.href = "game.php"}
 }
 
