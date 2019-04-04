@@ -1,3 +1,27 @@
+<?php session_start();
+
+$workoutID=$_SESSION[workoutID];
+
+//connect to the server and select the database
+$db_name ="2440535_numberdna";
+$connection = @mysql_connect("pdb6.awardspace.net:3306","2440535_numberdna","1Algebra_Practice") or die(mysql_error());
+$db = @mysql_select_db($db_name,$connection)or die(mysql_error(Trouble1));
+
+//build and issue the query
+$sql ="SELECT * FROM AA_PracticePages WHERE id = $workoutID ";
+$result = @mysql_query($sql,$connection) or die(mysql_error());
+$row = mysql_fetch_array($result);
+$workoutTitle=$row['title'];
+$url=$row['url'];
+
+?>
+
+<script type="text/javascript">
+
+var master_id=<?php echo $workoutID; ?>;
+
+</script>
+
 <html>
 	<body onload="opacity_setter()">
 		<div style="z-index:250" id="fog"></div>
